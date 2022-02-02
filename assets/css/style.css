@@ -5,7 +5,10 @@
     --green :#025858;
 }
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 h3{
     color: var(--primary-color);
