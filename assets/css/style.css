@@ -1,0 +1,197 @@
+:root{
+    --primary-color : #408A8A;
+    --orange :#FF8A00;
+    --text-color :#726565;
+    --green :#025858;
+}
+
+
+
+h3{
+    color: var(--primary-color);
+}
+
+span{
+    color: white;
+}
+/* Hero Section */
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+}
+
+.hero .right{
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero .content-box{
+    position: absolute;
+    background-color: #fffffc;
+    padding: 20px;
+    width: 35%;
+    top: 50%;
+    left: 20%;
+    transform: translate(-40%,-50%);
+    opacity: 0.7;
+}
+
+
+
+/* Section Offer */
+.offer-left{
+    position: relative;
+}
+.box{
+    height: 35vh;
+    width: 26vw;
+    background-color: var(--primary-color);
+}
+
+.offer-left .picture img{
+    position: absolute;
+    width: 60%;
+    height: 95%;
+    top: 12%;
+    left: 20%;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* Section Sevice */
+#service{
+    background-color: var(--green);
+}
+
+.card-service h5,p{
+    color: white;
+}
+
+.card-service i{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+}
+
+/* Section Project */
+.hr{
+    width: 14%;
+    height:3px;
+    background-color:var(--primary-color);
+    border-radius: 2px;
+}
+
+.project img{
+    width: 98%;
+    border-radius: 10px;
+}
+
+.col-satu {
+    position: relative;
+}
+
+
+.box-project{
+    position: absolute;
+    background-color: #fffffc;
+    /* background-color: violet; */
+    padding: 20px;
+    /* width: 49%; */
+    width: 54%;
+    top: 90%;
+    left: 49%;
+    height: 20%;
+    transform: translate(-50%,-50%);
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+.box-project h4{
+    color: var(--primary-color);
+}
+
+.box-project i:nth-child(5){
+    opacity: 0.7;
+}
+
+.box-project i {
+    font-size: 9px;
+    color: var(--orange);
+}
+
+
+/* Section Testimonials */
+.hr-testimonials{
+    width: 12%;
+    height:3px;
+    background-color:var(--primary-color);
+    border-radius: 2px;
+    
+}
+
+.box-testi{
+    background-color: var(--primary-color);
+}
+
+.box-testi2{
+    background-color: white;
+}
+
+
+.box-testi img{
+    width: 8%;
+    height: 8%;
+}
+
+
+/* Subscribe */
+.custom-search {
+    position: relative;
+    width: 100%;
+  }
+.custom-search-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgb(206, 206, 206);
+    outline: none;
+  }
+.custom-search-botton {
+    position: absolute;
+    right: 3px; 
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: var(--primary-color);
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 10px;
+    z-index: 2;
+  }
+
+/* Footer */
+footer{
+      margin-top: 100px;
+      background-color: var(--primary-color);
+  }
+footer h3 {
+      color: white;
+  }
+
+footer .social-icon i {
+      font-size: 24px;
+      margin-right: 28px;
+      color: white;
+  }
